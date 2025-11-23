@@ -1,4 +1,11 @@
 # Проект: Аномалия / Люденс / Игра
+
+[![Version](https://img.shields.io/badge/version-0.5.0-blue.svg)](./VERSION)
+[![Language](https://img.shields.io/badge/language-Russian-red.svg)]()
+[![Status](https://img.shields.io/badge/status-Phase%201%20Worldbuilding-yellow.svg)]()
+[![Progress](https://img.shields.io/badge/progress-5%25-orange.svg)](./meta/PROJECT_SNAPSHOT.md)
+[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey.svg)]()
+
 _Рабочее название, потом можно переименовать_
 
 ## О чем этот проект
@@ -149,9 +156,10 @@ _Рабочее название, потом можно переименоват
 - **[CHANGELOG.md](./CHANGELOG.md)** - Детальная история всех изменений с объяснениями
 - **[meta/VERSIONING_GUIDE.md](./meta/VERSIONING_GUIDE.md)** - Руководство для команды по работе с версионированием
 
-**Текущая версия:** 0.4.0
+**Текущая версия:** 0.5.0
 
 **Последние изменения:**
+- v0.5.0: Адаптация framework для литературного проекта (мета-файлы, Cold Start optimization)
 - v0.4.0: 3-уровневая архитектура + система версионирования
 - v0.3.0: Документация земных организаций (AARO, FEMA, агентства)
 - v0.2.0: Полная онтология (9 уровней, концепции, персонажи)
