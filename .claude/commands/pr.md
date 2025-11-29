@@ -181,7 +181,7 @@ gh pr create --title "docs: answer Q2.1-Q2.4 - Santa Cruz incident details" --bo
 - Добавлен файл `3_stories/santa_cruz_incident/_overview/attackers.md`
 - Добавлен файл `3_stories/santa_cruz_incident/_overview/defenders.md`
 - Обновлена онтология с новыми концепциями в `1_universe/`
-- Отвечены вопросы Q2.1-Q2.4 в `meta/universe_questions.md`
+- Отвечены вопросы Q2.1-Q2.4 в `1_universe/universe_questions.md`
 
 ## Consistency Check
 - [x] Терминология проверена

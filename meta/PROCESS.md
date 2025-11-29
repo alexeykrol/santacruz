@@ -92,7 +92,7 @@ git commit -m "feat: complete Phase X - [краткое описание]"
 
 ### Phase 1: Worldbuilding
 1. ✅ Все критичные вопросы (Q1-Q4) отвечены
-2. ✅ Ответы задокументированы в `1_universe/` или `meta/universe_questions.md`
+2. ✅ Ответы задокументированы в `1_universe/` или `1_universe/universe_questions.md`
 3. ✅ Нет противоречий с существующей онтологией
 4. ✅ Ключевые концепции проработаны достаточно для написания
 5. ✅ Мета-файлы обновлены (BACKLOG, SNAPSHOT)

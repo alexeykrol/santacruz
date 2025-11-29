@@ -1,8 +1,8 @@
 # World Structure — Структура мира
 
 **Project:** Санта-Круз / Люденс
-**Version:** 0.4.0
-**Last Updated:** 2025-01-23
+**Version:** 0.5.1
+**Last Updated:** 2025-11-29
 
 ---
 
@@ -93,17 +93,19 @@
    ├─ ludens_civilization/         # Цивилизация Люденс
    │  └─ UNDERSTANDING.md          # ⭐ Полная онтология (1173 строки)
    │
+   ├─ ludens_realm/               # Царство Люденс (v0.5.1: перенесено из 2_settings)
+   │  └─ administrative_spaces/
+   │
+   ├─ universe_questions.md       # 40+ вопросов для worldbuilding (v0.5.1: перенесено из meta/)
+   │
    └─ institutions/                # Универсальные институты
       └─ committee_designers/      # Комитет Дизайнеров (КД)
 
 📁 Уровень 2: SETTINGS (2_settings/)
    │
-   ├─ earth/                       # Земля как игровой мир
-   │  ├─ earth_game/
-   │  └─ organizations/            # AARO, DARPA, FEMA, и др.
-   │
-   └─ ludens_realm/                # Царство Люденс
-      └─ administrative_spaces/
+   └─ earth/                       # Земля как игровой мир
+      ├─ earth_game/
+      └─ organizations/            # AARO, DARPA, FEMA, и др.
 
 📁 Уровень 3: STORIES (3_stories/)
    │
@@ -367,7 +369,7 @@ git push
 ### 🔴 КРИТИЧНЫЕ (блокируют Phase 3: Writing):
 
 1. **Q2.1: Кто атаковал Санта-Круз?**
-   - File: `meta/universe_questions.md`
+   - File: `1_universe/universe_questions.md`
    - Impact: Весь сюжет зависит от ответа
    - Status: ❌ Не отвечено
 

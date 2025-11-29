@@ -48,7 +48,7 @@ description: Завершение спринта и автоматическое
      - 3_stories/santa_cruz_incident/_overview/defenders.md
 
      Изменены:
-     - meta/universe_questions.md (отмечены Q2.1-Q2.2 как answered)
+     - 1_universe/universe_questions.md (отмечены Q2.1-Q2.2 как answered)
      ```
 
 4. **Какой impact (результат)?**
@@ -78,7 +78,7 @@ AI обновит:
       - 3_stories/santa_cruz_incident/_overview/attackers.md
       - 3_stories/santa_cruz_incident/_overview/defenders.md
     - Files Changed:
-      - meta/universe_questions.md (Q2.1-Q2.2 marked as answered)
+      - 1_universe/universe_questions.md (Q2.1-Q2.2 marked as answered)
     - Impact: Определена атакующая сторона и защищающаяся. Теперь можно писать Часть 2.
     - Notes: Проверена консистентность с онтологией.
   ```
