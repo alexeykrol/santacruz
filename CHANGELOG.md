@@ -15,10 +15,24 @@
 
 - **README.md**:
   - Добавлено оглавление для улучшения навигации (PR #7, 2025-11-23)
-  - Исправлен badge прогресса: 5% → 10% (синхронизация с мета-файлами)
+  - Исправлен badge прогресса: 5% → 10%
+  - Обновлён badge версии: 0.5.0 → 0.5.1
+  - Исправлен путь к ludens_realm: `2_settings/` → `1_universe/`
+
+- **Синхронизация мета-файлов** (PR #9):
+  - `VERSION` — 0.5.0 → 0.5.1
+  - `PROJECT_SNAPSHOT.md` — дата, история обновлений, структура проекта
+  - `BACKLOG.md` — версия, дата, пути к файлам
+  - `WORLD_STRUCTURE.md` — версия, дата, структура (ludens_realm в 1_universe)
+  - `PROJECT_INTAKE.md` — пути к universe_questions.md
+  - `CLAUDE.md` — пути к universe_questions.md
+  - `PROCESS.md` — пути к universe_questions.md
+  - `.claude/commands/pr.md` — пути
+  - `.claude/commands/sprint-done.md` — пути
 
 ### Технические детали
 - 2 файла перемещены с сохранением git-истории (`git mv`)
+- 11 файлов обновлено для синхронизации версий и путей
 - Оглавление использует якорные ссылки GitHub
 
 ---
