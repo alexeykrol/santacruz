@@ -1,9 +1,9 @@
 # Проект: Аномалия / Люденс / Игра
 
-[![Version](https://img.shields.io/badge/version-0.5.0-blue.svg)](./VERSION)
+[![Version](https://img.shields.io/badge/version-0.5.1-blue.svg)](./VERSION)
 [![Language](https://img.shields.io/badge/language-Russian-red.svg)]()
 [![Status](https://img.shields.io/badge/status-Phase%201%20Worldbuilding-yellow.svg)]()
-[![Progress](https://img.shields.io/badge/progress-5%25-orange.svg)](./meta/PROJECT_SNAPSHOT.md)
+[![Progress](https://img.shields.io/badge/progress-10%25-orange.svg)](./meta/PROJECT_SNAPSHOT.md)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey.svg)]()
 
 _Рабочее название, потом можно переименовать_
@@ -121,7 +121,7 @@ _Рабочее название, потом можно переименоват
     - [earth_list_org.md](./2_settings/earth/organizations/earth_list_org.md) - Каталог организаций (AARO, DARPA, FEMA, и др.)
     - [fema_earth.md](./2_settings/earth/organizations/fema_earth.md) - Протоколы FEMA
 
-- **[/ludens_realm/](./2_settings/ludens_realm/)** - Царство Люденс
+- **[/ludens_realm/](./1_universe/ludens_realm/)** - Царство Люденс
   - Административные пространства
   - Операционные центры
 
