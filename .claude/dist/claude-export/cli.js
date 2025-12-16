@@ -46,6 +46,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const path = __importStar(require("path"));
 const fs = __importStar(require("fs"));
+const child_process_1 = require("child_process");
 const watcher_1 = require("./watcher");
 const server_1 = require("./server");
 const exporter_1 = require("./exporter");
@@ -272,9 +273,54 @@ async function runInit(projectPath) {
     console.log('     Use the UI checkbox or edit .gitignore manually');
     console.log('');
 }
+/**
+ * Check if npm dependencies are installed and install them if missing.
+ * This ensures the CLI can run even if npm install was not executed.
+ */
+function checkAndInstallDependencies() {
+    const cliDir = __dirname;
+    const nodeModulesPath = path.join(cliDir, 'node_modules');
+    // Check if node_modules exists
+    if (fs.existsSync(nodeModulesPath)) {
+        return; // Dependencies already installed
+    }
+    // Check if package.json exists
+    const packageJsonPath = path.join(cliDir, 'package.json');
+    if (!fs.existsSync(packageJsonPath)) {
+        return; // No package.json, nothing to install
+    }
+    console.log('');
+    console.log('📦 First-time setup: Installing framework dependencies...');
+    console.log('   This will only happen once.');
+    console.log('');
+    try {
+        // Run npm install in the CLI directory
+        (0, child_process_1.execSync)('npm install --silent', {
+            cwd: cliDir,
+            stdio: ['ignore', 'pipe', 'pipe']
+        });
+        console.log('✅ Dependencies installed successfully');
+        console.log('');
+    }
+    catch (err) {
+        console.error('');
+        console.error('⚠️  Failed to install dependencies automatically.');
+        console.error('');
+        console.error('Please install them manually:');
+        console.error(`   cd ${cliDir}`);
+        console.error('   npm install');
+        console.error('');
+        process.exit(1);
+    }
+}
 async function main() {
     const args = process.argv.slice(2);
     const command = args[0] || 'help';
+    // Check dependencies for commands that need them (skip for help)
+    const needsDependencies = !['help', '--help', '-h'].includes(command);
+    if (needsDependencies) {
+        checkAndInstallDependencies();
+    }
     // Parse options
     const options = {};
     const filteredArgs = [];
