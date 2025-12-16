@@ -407,7 +407,7 @@ function startServer(port = 3333, projectPath, outputDir) {
     // Output path can be different from source project
     const outputPath = outputDir ? path.resolve(outputDir) : currentProjectPath;
     const dialogFolder = (0, gitignore_1.getDialogFolder)(outputPath);
-    app.listen(port, () => {
+    const server = app.listen(port, () => {
         console.log('');
         console.log('═'.repeat(60));
         console.log('  Claude Export UI');
@@ -430,6 +430,29 @@ function startServer(port = 3333, projectPath, outputDir) {
             withoutSummary.forEach(d => {
                 console.log(`[CLAUDE_TASK] Generate summary for: ${d.filePath}`);
             });
+        }
+    });
+    // Handle port conflicts gracefully
+    server.on('error', (err) => {
+        if (err.code === 'EADDRINUSE') {
+            console.error('');
+            console.error('═'.repeat(60));
+            console.error(`  Error: Port ${port} Already In Use`);
+            console.error('═'.repeat(60));
+            console.error('');
+            console.error(`Another process is using port ${port}.`);
+            console.error('');
+            console.error('Options:');
+            console.error(`1. Stop the existing process:`);
+            console.error(`   lsof -ti:${port} | xargs kill`);
+            console.error('');
+            console.error(`2. Use a different port:`);
+            console.error(`   node .claude/dist/claude-export/cli.js ui --port ${port + 1}`);
+            console.error('');
+            process.exit(1);
+        }
+        else {
+            throw err;
         }
     });
     // Graceful shutdown

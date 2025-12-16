@@ -43,6 +43,11 @@
   - `1_universe/ответы_universe_questions.md` — рабочая копия для ответов
   - `1_universe/ontology/Дополнения.md` — заготовка
   - `1_universe/ontology/как развивать лор.md` — заготовка
+- ✅ **Framework bugs fixed** — 2025-12-16
+  - BUG-002: Missing chokidar dependency (HIGH) — FIXED
+  - BUG-001: Migration cleanup (CRITICAL) — manually resolved
+  - Comprehensive bug report created (29KB, 4 bugs documented)
+  - Files: `reports/framework-bugs-2025-12-16.md`
 
 ### In Progress (🔄):
 - 🔄 **Критичные вопросы** — 0 из 16 отвечено
