@@ -24,3 +24,9 @@ __pycache__/
 *.tmp
 *.bak
 *.log
+
+# Claude Code runtime files
+.claude/.last_session
+
+# Claude Code dialogs (privacy by default)
+dialog/
