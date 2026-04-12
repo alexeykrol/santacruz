@@ -30,3 +30,24 @@ __pycache__/
 
 # Claude Code dialogs (privacy by default)
 dialog/
+.claude/settings.local.json
+.claude/logs/
+.claude/.tool-counter
+CLAUDE.local.md
+.env
+.env.local
+.env.production
+Thumbs.db
+*.pyc
+.venv/
+dist/
+dist-release/
+build/
+*.egg-info/
+test-results/
+playwright-report/
+coverage/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3

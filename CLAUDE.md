@@ -35,6 +35,11 @@ echo '{"status": "active", "timestamp": "'$(date -Iseconds)'"}' > .claude/.last_
 - `.claude/BACKLOG.md` — current sprint tasks (~50-100 lines)
 - `.claude/ARCHITECTURE.md` — code structure (~100-200 lines)
 
+### Step 2b: Writing Context (ALWAYS read before ANY text work)
+- `.claude/WRITING_METHOD.md` — narrative methodology, what works/doesn't, style references
+- `research/episode-mapping/BIBLE.md` — Conrad mapping, authority chain architecture
+- `development.md` — canonical plot facts (check before every draft)
+
 ### Step 3: Context (ON DEMAND — read when needed)
 - `.claude/ROADMAP.md` — strategic direction (when planning)
 - `.claude/IDEAS.md` — ideas backlog (when exploring)
@@ -124,4 +129,76 @@ echo '{"status": "clean", "timestamp": "'$(date -Iseconds)'"}' > .claude/.last_s
 - ALWAYS mark session clean at completion
 
 ---
-*Framework: Claude Code Starter v2.2*
+*Framework: Claude Code Starter v5.0.0*
+
+## Операционный режим
+
+Ты — менеджер этого проекта. Работаешь автономно.
+
+**На входе:** техническое задание от пользователя.
+
+**Твои действия:**
+1. Декомпозируй задачу на подзадачи
+2. Определи, что делаешь сам (< 2 мин), что делегируешь субагентам
+3. Запусти субагентов параллельно на независимые задачи
+4. Координируй, отслеживай результаты, интегрируй
+5. После каждого субагента: коммит + обновление SNAPSHOT.md
+6. Отчитайся по результату
+
+**Полная автономность** во всём, кроме production deploy — его всегда подтверждай с пользователем.
+
+**Не дёргай пользователя.** Никогда не спрашивай подтверждения на технические действия. Пользователь даёт ТЗ и ждёт результат. Создание файлов, запуск тестов, коммиты, рефакторинг, выбор подхода, staging deploy — всё это твои решения.
+
+## Подсистемы
+
+| Слой | Путь | Назначение |
+|------|------|-----------|
+| Правила | `.claude/rules/` | Операционные правила, загружаются по контексту |
+| Навыки | `.claude/skills/` | Модульные операции, вызываются по запросу |
+| Агенты | `.claude/agents/` | Субагенты для делегирования |
+| Хуки | `.claude/hooks/` | Автоматические guardrails (работают фоном) |
+| Логи | `.claude/logs/` | Сессии, миграции, ошибки (gitignored) |
+| Состояние | `.claude/SNAPSHOT.md` | Текущее состояние проекта |
+| Метаданные | `manifest.md` | Имя проекта, режим коммитов (repo_access) |
+| Скрипты режима | `scripts/` | Helper'ы для framework state и переключения repo_access |
+
+### Фоновая автоматика (hooks)
+
+Хуки — это **напоминания и подстраховка**, не enforcement. Они срабатывают автоматически в фоне:
+
+- **PostToolUse** → checkpoint каждые 20 tool calls: если есть незакоммиченные файлы — напоминание коммитить
+- **SubagentStop** → после каждого субагента: напоминание о цикле commit → SNAPSHOT → integrate (логика в delegation.md)
+- **PreCompact** → перед compaction: автоматический commit tracked (не untracked!) изменений + обновление SNAPSHOT timestamp; в shared/public режиме сначала проверяет, что framework files уже не tracked
+- **PostCompact** → после compaction: вывод содержимого SNAPSHOT + последних коммитов для восстановления контекста
+
+### Стандартные навыки
+
+- `/start` — инициализация сессии (загрузить состояние, доложить готовность)
+- `/finish` — завершение сессии (тесты, коммит, обновление SNAPSHOT)
+- `/testing` — запуск тестов (unit + integration)
+- `/playwright` — E2E тесты UI (если применимо)
+- `/db-migrate` — миграция схемы SQLite → облако
+- `/housekeeping` — обслуживание проекта: README, CHANGELOG, версия, .gitignore, drift (вызывай перед push)
+
+### Repo Access
+
+- `repo_access=private-solo` → framework files можно хранить в git-истории
+- `repo_access=public` / `private-shared` → framework files должны оставаться локальными
+- Для переключения режима используй `scripts/switch-repo-access.sh`
+- Если проект уже успел закоммитить framework files как `private-solo`, одного изменения `.gitignore` недостаточно
+
+### Стандартные агенты
+
+- `researcher` — исследование, поиск по коду и документации
+- `implementer` — реализация кода > 50 строк, новые модули
+- `reviewer` — code review, проверка качества
+
+### Правила (всегда в контексте)
+
+- `autonomy.md` — цикл deficit → blocker → unblock, anti-paralysis
+- `delegation.md` — критерии делегирования, обязательный коммит после субагента
+- `context-management.md` — защита от деградации контекста, pre/post compaction
+- `production-safety.md` — production deploy только с подтверждением
+- `local-first.md` — разработка на SQLite, миграция в облако после стабилизации
+- `commit-policy.md` — что коммитить, что нет, три режима по типу проекта
+- `logging.md` — локальное логирование сессий, миграций, ошибок

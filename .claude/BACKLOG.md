@@ -1,7 +1,7 @@
 # BACKLOG — Current Sprint
 
 **Project:** Санта-Круз / Люденс
-**Framework:** Claude Code Starter v2.2
+**Framework:** Claude Code Starter v5.0.0
 **Version:** 0.5.1
 **Last Updated:** 2025-12-15
 

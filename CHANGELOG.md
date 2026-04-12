@@ -5,6 +5,19 @@
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 версионирование следует [Semantic Versioning](https://semver.org/lang/ru/).
 
+## [0.6.0] - 2026-04-12
+
+### Инфраструктура
+- **Миграция на Claude Code Starter v5.0.0**:
+  - Добавлены `.claude/rules/` — 7 операционных правил (autonomy, delegation, commit-policy и др.)
+  - Добавлены `.claude/skills/` — стандартные workflows (start, finish, testing, housekeeping и др.)
+  - Добавлены `.claude/agents/` — researcher, implementer, reviewer
+  - Добавлены `.claude/hooks/` — фоновые guardrails (pre/post-compact, post-tool-checkpoint, subagent-done)
+  - Добавлен `manifest.md` с repo_access=private-solo
+  - Добавлены `scripts/` — framework-state-mode.sh, switch-repo-access.sh
+  - Обновлён `.claude/settings.json` с hooks конфигом
+  - CLAUDE.md обогащён блоком операционного режима v5
+
 ## [0.5.1] - 2025-11-29
 
 ### Изменено
