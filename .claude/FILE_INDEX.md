@@ -219,6 +219,8 @@
 | `drafts/episode001/002-amelie-opening.md` | Ранний опыт: открытие в стиле Амели — полезно для поиска тона |
 | `drafts/episode001/side-channel-attack-theory.md` | Анализ: теория атаки через side-channel — нарративный хакинг |
 | `drafts/episode001/` (v1-v7.3, 001-arrival.md, 010-rebundling) | Архивные версии — не читать, только справка |
+| `drafts/episode002/episode002-v1.md` | **Черновик v1 эп.002** — POV полковника, купол как объект, Эдди Роу выходит |
+| `drafts/episode002/README.md` | Метаданные эпизода 002: Want/Need/Deserve, структура, связь с ep001 |
 | `drafts/master/README.md` | Книжная версия (пуста) |
 
 ---
