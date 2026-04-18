@@ -127,7 +127,8 @@
 | Файл | Назначение |
 |------|-----------|
 | `research/episode-mapping/BIBLE.md` | **КРИТИЧНО ДЛЯ ЭПИЗОДОВ** — Conrad-маппинг эп.001-003, цепь полномочий FEMA→DHS→USNORTHCOM→JCS→NSC, ошибки в черновиках |
-| `research/steven-conrad/metodologiya_iz_intervyu_stsenarista.md` | Методология Стивена Конрада из интервью — первоисточник |
+| `research/steven-conrad/METHOD.md` | **ПОЛНЫЙ МЕТОД КОНРАДА v1.4** — 627 строк, реконструкция из 9 часов транскриптов. Want/Need/Deserve, ставки=здоровье персонажа, структура, диалог, субверсия жанра |
+| `research/steven-conrad/metodologiya_iz_intervyu_stsenarista.md` | Руководство по извлечению методологии из интервью (мета-документ) |
 | `research/tsunami.md` | Исследование цунами — физика, статистика (большой файл, читать по запросу) |
 | `research/amelie_screenplay.md` | Сценарий "Амели" — стилевой ориентир для нарратора |
 | `research/battleship_2012_transcript.md` | Транскрипт "Морского боя 2012" — пример военного/правительственного диалога |
