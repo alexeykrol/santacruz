@@ -40,6 +40,12 @@ echo '{"status": "active", "timestamp": "'$(date -Iseconds)'"}' > .claude/.last_
 - `research/episode-mapping/BIBLE.md` — Conrad mapping, authority chain architecture
 - `development.md` — canonical plot facts (check before every draft)
 
+### Step 2c: File Discovery (read before any writing/research task)
+- `.claude/FILE_INDEX.md` — full catalog of 150+ files + pre-task reading lists + quick-answer lookups
+  - Use Part 2 (reading lists by task type) to find what to read before starting
+  - Use Part 3 (quick answers) to answer world questions without reading full files
+  - Rule: when creating a new file, add it to FILE_INDEX.md
+
 ### Step 3: Context (ON DEMAND — read when needed)
 - `.claude/ROADMAP.md` — strategic direction (when planning)
 - `.claude/IDEAS.md` — ideas backlog (when exploring)
