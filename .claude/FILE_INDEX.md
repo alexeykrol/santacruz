@@ -17,7 +17,14 @@
 | `.claude/WRITING_METHOD.md` | Методология написания: Conrad, что работает/не работает, стилевые ориентиры |
 | `.claude/ARCHITECTURE.md` | Архитектура фреймворка |
 | `.claude/ROADMAP.md` | Стратегический план фаз 1→3 |
+| `.claude/IDEAS.md` | Идеи — спонтанные концепции и мозговой штурм |
+| `.claude/FILE_INDEX.md` | Этот файл — полный каталог проекта |
 | `CLAUDE.md` | Инструкции для ИИ, Cold Start Protocol |
+| `manifest.md` | repo_access=private-solo, режим коммитов |
+| `README.md` | Обзор проекта для людей |
+| `CHANGELOG.md` | История версий проекта |
+| `EPISODE_STRUCTURE.md` | **ВАЖНО** — структура эпизода: что обязательно в каждом эпизоде |
+| `SCENE_STRUCTURE.md` | **ВАЖНО** — структура сцены: POV, давление, финальный образ |
 
 ---
 
@@ -97,9 +104,12 @@
 #### Нарративная структура
 | Файл | Назначение |
 |------|-----------|
+| `3_stories/santa_cruz_incident/narrative_structure/README.md` | Обзор: Часть 1 (Земля) + Часть 2 (КД) — общая структура |
+| `3_stories/santa_cruz_incident/narrative_structure/part1_earth/README.md` | Часть 1 — Земля: три акта, эпизоды, принципы |
 | `3_stories/santa_cruz_incident/narrative_structure/part1_earth/act1_anomaly/README.md` | Акт 1 — 7 сцен: шторм, цунами, поле, первые наблюдения, инфо-взрыв, власти, эвакуация |
 | `3_stories/santa_cruz_incident/narrative_structure/part1_earth/act2_investigation/README.md` | Акт 2 — Расследование |
 | `3_stories/santa_cruz_incident/narrative_structure/part1_earth/act3_contact/README.md` | Акт 3 — Контакт |
+| `3_stories/santa_cruz_incident/narrative_structure/part2_admin/README.md` | Часть 2 — КД: административный слой |
 | `3_stories/santa_cruz_incident/narrative_structure/part2_admin/act1_incident/README.md` | Часть 2, Акт 1 — административный слой (КД) |
 
 ---
@@ -172,6 +182,7 @@
 | `talks/chatgptcomment.md` | Комментарий ChatGPT о проекте |
 | `talks/geminicomment.md` | Комментарий Gemini о проекте |
 | `talks/grokcomment.md` | Комментарий Grok о проекте |
+| `talks/hawking-radiation-analogy.md` | Аналогия с излучением Хокинга — физическое обоснование утечки через поле |
 | `talks/short.md` | Краткое резюме |
 
 ---
@@ -186,6 +197,15 @@
 | `ai-talks/money.md` | Тема: деньги/монетизация |
 | `ai-talks/scale.md` | Тема: масштаб |
 | `ai-talks/explor_001.md` | Исследование 001 |
+| `ai-talks/gemini.md` | ИИ-разговор с Gemini — стороннее мнение о проекте |
+
+---
+
+### 📰 СТАТЬИ (articles/)
+
+| Файл | Назначение |
+|------|-----------|
+| `articles/nicbostrom.md` | Статья Ника Бострома — симуляционный аргумент (теоретическая база мира)
 
 ---
 
@@ -196,7 +216,9 @@
 | `drafts/episode001/episode001-v8.1.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.001** (v8.1) |
 | `drafts/episode001/episode001-v8.md` | Версия v8 (предфинальная) |
 | `drafts/episode001/README.md` | Метаданные эпизода 001 |
-| `drafts/episode001/` (v1-v7.3) | Архивные версии — не читать, только справка |
+| `drafts/episode001/002-amelie-opening.md` | Ранний опыт: открытие в стиле Амели — полезно для поиска тона |
+| `drafts/episode001/side-channel-attack-theory.md` | Анализ: теория атаки через side-channel — нарративный хакинг |
+| `drafts/episode001/` (v1-v7.3, 001-arrival.md, 010-rebundling) | Архивные версии — не читать, только справка |
 | `drafts/master/README.md` | Книжная версия (пуста) |
 
 ---
@@ -347,5 +369,6 @@
 ---
 
 *Индекс построен: 2026-04-18*
-*Файлов в проекте: ~150+*
+*Последнее обновление: 2026-04-18*
+*Файлов в проекте: 165+ (tracked в git)*
 *Ключевых файлов для понимания мира: ~25*
