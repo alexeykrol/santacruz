@@ -30,3 +30,5 @@ __pycache__/
 
 # Claude Code dialogs (privacy by default)
 dialog/
+.handoffs/local/
+.handoffs/*.local.md
