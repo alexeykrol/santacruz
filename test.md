@@ -1,6 +1,7 @@
-![Version](https://img.shields.io/badge/version-3-blue)
+![Version](https://img.shields.io/badge/version-4-blue)
 
-wqer tewq rteqwtew rtrewt 
+wqer tewq rteqwtew rtrewt
+hook test line
 
 ert 
 re 
