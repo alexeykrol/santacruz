@@ -143,11 +143,12 @@
 | `research/steven-conrad/raw/text/` | 4 исходных текста интервью Конрада (Chicago Mag, AV Club, Collider, цитаты) |
 | `research/steven-conrad/transcripts/max_tony_show_ep8.txt` | Транскрипт подкаста Max & Tony Show ep.8 — ежедневная практика Конрада |
 | `research/steven-conrad/metodologiya_iz_intervyu_stsenarista.md` | Руководство по извлечению методологии из интервью (мета-документ) |
-| `research/tsunami.md` | Исследование цунами — физика, статистика (большой файл, читать по запросу) |
-| `research/amelie_screenplay.md` | Сценарий "Амели" — стилевой ориентир для нарратора |
-| `research/battleship_2012_transcript.md` | Транскрипт "Морского боя 2012" — пример военного/правительственного диалога |
-| `research/Robocop and The Terminator.md` | Анализ Робокопа и Терминатора — образцы техно-мифологии |
-| `research/choudary/INDEX.md` | Индекс серии Чоудари (30+ файлов: главы + саммари) |
+| `_personal/research/tsunami.md` | Исследование цунами — физика, статистика (личный архив, большой файл) |
+| `_personal/research/amelie_screenplay.md` | Сценарий "Амели" — стилевой ориентир для нарратора (личный архив) |
+| `_personal/research/battleship_2012_transcript.md` | Транскрипт "Морского боя 2012" (личный архив) |
+| `_personal/research/Robocop and The Terminator.md` | Анализ Робокопа и Терминатора (личный архив) |
+| `_personal/research/choudary/INDEX.md` | Индекс серии Чоудари — 30+ файлов (личный архив) |
+| `_personal/research/war_of_the_worlds_2005_final_shooting_screenplay.md` | Сценарий «Войны миров» 2005 — Кёп/Спилберг, источник приёмов (личный архив) |
 
 ---
 
@@ -213,15 +214,15 @@
 
 | Файл | Назначение |
 |------|-----------|
-| `drafts/episode001/episode001-v8.1.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.001** (v8.1) |
-| `drafts/episode001/episode001-v8.md` | Версия v8 (предфинальная) |
+| `drafts/episode001/episode001-v8.1.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.001** (v8.1) — смержена в main |
 | `drafts/episode001/README.md` | Метаданные эпизода 001 |
-| `drafts/episode001/002-amelie-opening.md` | Ранний опыт: открытие в стиле Амели — полезно для поиска тона |
-| `drafts/episode001/side-channel-attack-theory.md` | Анализ: теория атаки через side-channel — нарративный хакинг |
-| `drafts/episode001/` (v1-v7.3, 001-arrival.md, 010-rebundling) | Архивные версии — не читать, только справка |
-| `drafts/episode002/episode002-v1.md` | **Черновик v1 эп.002** — POV полковника, купол как объект, Эдди Роу выходит |
+| `drafts/episode002/episode002-v8.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.002** (v8) — в открытом PR #20 |
 | `drafts/episode002/README.md` | Метаданные эпизода 002: Want/Need/Deserve, структура, связь с ep001 |
+| `drafts/episode003/` | Пустая — ждёт принятой версии. Промежуточные черновики и канва v3 — в `_personal/drafts/episode003/` |
 | `drafts/master/README.md` | Книжная версия (пуста) |
+| `_personal/drafts/episode001/` | Архив всех промежуточных версий эп.001 (v1–v8, v7.x, ранние сцены — личное) |
+| `_personal/drafts/episode002/` | Архив v1–v7 эп.002 (личное) |
+| `_personal/drafts/episode003/` | Все рабочие материалы эп.003: canvas-v3.md, episode003-v1.md, episode003-v2.md (личное) |
 
 ---
 
@@ -242,7 +243,7 @@
 |------|--------|-----------|
 | `development.md` | ~91k символов | Канонические факты сюжета — первоисточник. ТОЛЬКО по запросу или для проверки конкретного факта |
 | `Exegesis.md` | Большой | Философские тексты Ф.К.Дика — вдохновение для симуляционной тематики |
-| `research/tsunami.md` | Большой | Физика цунами — детальные данные |
+| `_personal/research/tsunami.md` | Большой | Физика цунами — детальные данные (личный архив) |
 | `1_universe/ludens_civilization/UNDERSTANDING.md` | 1173 строки | Полная онтология — только нужные секции |
 
 ---
@@ -294,7 +295,7 @@
 2. 2_settings/earth/organizations/fema_earth.md — FEMA: что может, что не может
 3. 2_settings/earth/organizations/earth_list_org.md — какие org существуют
 4. 3_stories/santa_cruz_incident/organizations/earth_investigation_team.md — НЕ появляется до Days 3-7
-5. research/battleship_2012_transcript.md — образец военного диалога (опционально)
+5. `_personal/research/battleship_2012_transcript.md` — образец военного диалога (опционально, личный архив)
 ```
 
 ### Перед написанием сцены с КД
