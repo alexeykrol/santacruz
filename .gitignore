@@ -55,3 +55,17 @@ coverage/
 # Local handoff drafts
 .handoffs/local/
 .handoffs/*.local.md
+
+# Claude dialogs
+dialog/2026-04-03_session-cefbaafe.md
+dialog/2026-04-04_session-a431b282.md
+dialog/2026-04-07_session-616b7256.md
+dialog/2026-04-11_session-a0d502d3.md
+dialog/2026-04-12_session-0ade429c.md
+dialog/2026-04-11_session-f1ef2088.md
+dialog/2026-04-04_session-94f7facc.md
+dialog/2026-04-03_session-095149b2.md
+dialog/2026-04-03_session-2b7259b1.md
+dialog/2026-04-04_session-a67ff27d.md
+dialog/2026-04-03_session-c49ab9c3.md
+dialog/2026-04-25_session-fdd6a176.md
