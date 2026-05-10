@@ -216,7 +216,7 @@
 |------|-----------|
 | `drafts/episode001/episode001-v8.1.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.001** (v8.1) — смержена в main |
 | `drafts/episode001/README.md` | Метаданные эпизода 001 |
-| `drafts/episode002/episode002-v8.md` | **ФИНАЛЬНАЯ ВЕРСИЯ эп.002** (v8) — в открытом PR #20 |
+| `drafts/episode002/episode002-v9.md` | **ТЕКУЩАЯ ВЕРСИЯ эп.002** (v9) — PR #20 правки + Highway 17 reframe |
 | `drafts/episode002/README.md` | Метаданные эпизода 002: Want/Need/Deserve, структура, связь с ep001 |
 | `drafts/episode003/` | Пустая — ждёт принятой версии. Промежуточные черновики и канва v3 — в `_personal/drafts/episode003/` |
 | `drafts/master/README.md` | Книжная версия (пуста) |

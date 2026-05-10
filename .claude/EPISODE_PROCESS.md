@@ -211,4 +211,4 @@ v6+ открываются движением: водитель GMC мчится
 - `BIBLE.md` — картирование эпизодов по Конраду
 - `development.md` — канонические факты
 - `drafts/episode001/episode001-v8.1.md` — эталон ритма
-- `drafts/episode002/episode002-v8.md` — финальная версия эп.002
+- `drafts/episode002/episode002-v9.md` — текущая версия эп.002
