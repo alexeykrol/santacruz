@@ -429,5 +429,7 @@ async function startWatcher(targetProjectPath, options = {}) {
         process.exit(0);
     });
     await watcher.start();
+    // PATCH: keep node alive so chokidar can fire events
+    setInterval(() => {}, 1 << 30);
     return watcher;
 }
