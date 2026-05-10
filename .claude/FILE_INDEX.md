@@ -143,6 +143,7 @@
 | `research/steven-conrad/raw/text/` | 4 исходных текста интервью Конрада (Chicago Mag, AV Club, Collider, цитаты) |
 | `research/steven-conrad/transcripts/max_tony_show_ep8.txt` | Транскрипт подкаста Max & Tony Show ep.8 — ежедневная практика Конрада |
 | `research/steven-conrad/metodologiya_iz_intervyu_stsenarista.md` | Руководство по извлечению методологии из интервью (мета-документ) |
+| `research/example_evacuation.md` | **CZU 2020 evacuation reference** — досье по реальной эвакуации Санта-Круз/Сан-Матео (август 2020). Хронология, участники, бытовые свидетельства, личные заметки автора. Источник материала для пост-катастрофических эпизодов (шелтеры, реентри, Day 3+) |
 | `_personal/research/tsunami.md` | Исследование цунами — физика, статистика (личный архив, большой файл) |
 | `_personal/research/amelie_screenplay.md` | Сценарий "Амели" — стилевой ориентир для нарратора (личный архив) |
 | `_personal/research/battleship_2012_transcript.md` | Транскрипт "Морского боя 2012" (личный архив) |
