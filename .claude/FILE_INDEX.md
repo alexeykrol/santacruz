@@ -144,6 +144,8 @@
 | `research/steven-conrad/transcripts/max_tony_show_ep8.txt` | Транскрипт подкаста Max & Tony Show ep.8 — ежедневная практика Конрада |
 | `research/steven-conrad/metodologiya_iz_intervyu_stsenarista.md` | Руководство по извлечению методологии из интервью (мета-документ) |
 | `research/example_evacuation.md` | **CZU 2020 evacuation reference** — досье по реальной эвакуации Санта-Круз/Сан-Матео (август 2020). Хронология, участники, бытовые свидетельства, личные заметки автора. Источник материала для пост-катастрофических эпизодов (шелтеры, реентри, Day 3+) |
+| `research/model_in_real_world_1.md` | **АНТИ-ФАНТАЗИЙНЫЙ ЯКОРЬ** — реалистичная модель расследования цунами+купола: 8 прецедентов (San Bruno, Refugio, anthrax, Columbia и др.), протоколы (SEMS/NIMS, USCG, FBI WMDD, EPA ASPECT, NNSA NEST), хронология 6ч/72ч/1нед. Читать перед эпизодами про FBI/military/HazMat/federal escalation |
+| `research/model_in_real_world_2.md` | **АНТИ-ФАНТАЗИЙНЫЙ ЯКОРЬ** — реалистичная disaster response: 5 аналогов (Tohoku, CZU, Tonga, Clearinghouse), разбор всех ведомств (Local/County/Cal OES/FEMA/NOAA/USGS/FBI/USCG/EPA/Military), 7 пунктов «что брать напрямую», 5 пунктов «где художественное допущение». Парный с _1.md |
 | `_personal/research/tsunami.md` | Исследование цунами — физика, статистика (личный архив, большой файл) |
 | `_personal/research/amelie_screenplay.md` | Сценарий "Амели" — стилевой ориентир для нарратора (личный архив) |
 | `_personal/research/battleship_2012_transcript.md` | Транскрипт "Морского боя 2012" (личный архив) |

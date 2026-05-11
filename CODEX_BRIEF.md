@@ -56,6 +56,21 @@ SantaCruse/
 10. `_personal/research/Robocop and The Terminator.md` — стилевой разбор.
 11. `_personal/research/war_of_the_worlds_2005_final_shooting_screenplay.md` — сценарий «Войны миров» 2005, разобран на приёмы (фрагментация инфо, профессия как беспомощность, частная цель героя).
 
+### Анти-фантазийные якоря (обязательно для эпизодов с FBI/military/HazMat/federal escalation)
+
+12. `research/model_in_real_world_1.md` — реалистичная модель расследования цунами+купола: прецеденты (San Bruno, Refugio, anthrax, Columbia), протоколы SEMS/NIMS/USCG/FBI WMDD/EPA, хронология 6ч/72ч/1нед.
+13. `research/model_in_real_world_2.md` — разбор всех ведомств (Local/County/Cal OES/FEMA/NOAA/USGS/FBI/USCG/EPA/Military), 7 пунктов «что брать напрямую», 5 пунктов «где художественное допущение».
+14. `research/example_evacuation.md` — реальный CZU 2020 (свидетельства, шелтеры, реентри).
+
+**Ключевые анти-фантазийные правила** (из якорей выше):
+- Нет мгновенного федерального захвата. FBI = liaison до WMD/terror trigger.
+- Нет мгновенного военного takeover. DSCA по civilian request. National Guard под Governor'ом — support, не «главная полиция».
+- Слоёная команда (Unified Command + County OA EOC + Cal OES + USCG на воде), не один генерал.
+- Первый контакт с аномалией — HazMat, не профессор.
+- Реальные приборы (FTIR, гамма-спектр, EPA ASPECT, MBARI ROV/AUV), не выдуманные сканеры.
+- Реальные ассеты Санта-Круза: UCSC, MBARI, USGS Pacific Coastal and Marine Science Center, NOAA Fisheries Santa Cruz Lab, Lawrence Livermore (NARAC).
+- Язык власти осторожный: «under investigation», «no evidence yet», «when road access is safe» — не уклончивость, а политика языка при неполной картине.
+
 ---
 
 ## Канон: что нельзя менять
