@@ -497,7 +497,7 @@ AARO — аналитический офис, не оперативная гру
 
 - Эпизод 001 — финальная версия: `drafts/episode001/episode001-v8.1.md`. ✅
 - Эпизод 002 — текущая версия: `drafts/episode002/episode002-v9.md`. ✅
-- Эпизод 003 — в работе. Промежуточные версии и канва v3 — в `_personal/drafts/episode003/`.
+- Эпизод 003 — текущая версия: `drafts/episode003/episode003-v3.md`. Полный rewrite по реалистичной модели (12 anchors из `research/model_in_real_world_*.md`) + Conrad + Robocop/Terminator + Амели + War of the Worlds. Промежуточные канва v3 и архив v1–v2 — в `_personal/drafts/episode003/`.
 
 ---
 
@@ -521,8 +521,8 @@ AARO — аналитический офис, не оперативная гру
 
 1. ✅ Эп.001 написан (`drafts/episode001/episode001-v8.1.md`)
 2. ✅ Эп.002 написан (`drafts/episode002/episode002-v9.md`)
-3. ⏳ Эп.003 в работе — канва и черновики в `_personal/drafts/episode003/`.
-4. Написать эп.003 "Первые наблюдения" — формирование следственной группы, Days 3–7
+3. ✅ Эп.003 написан (`drafts/episode003/episode003-v3.md`)
+4. Написать эп.004 "Эвакуация" — следующий шаг по канве (Days 3–7, расширение слежения за городом)
 
 ---
 

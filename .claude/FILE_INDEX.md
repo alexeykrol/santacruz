@@ -221,11 +221,11 @@
 | `drafts/episode001/README.md` | Метаданные эпизода 001 |
 | `drafts/episode002/episode002-v9.md` | **ТЕКУЩАЯ ВЕРСИЯ эп.002** (v9) — PR #20 правки + Highway 17 reframe |
 | `drafts/episode002/README.md` | Метаданные эпизода 002: Want/Need/Deserve, структура, связь с ep001 |
-| `drafts/episode003/` | Пустая — ждёт принятой версии. Промежуточные черновики и канва v3 — в `_personal/drafts/episode003/` |
+| `drafts/episode003/episode003-v3.md` | **ТЕКУЩАЯ ВЕРСИЯ эп.003** (v3) — полный rewrite по реалистичной модели + Conrad/Robocop/Амели/War of the Worlds |
 | `drafts/master/README.md` | Книжная версия (пуста) |
 | `_personal/drafts/episode001/` | Архив всех промежуточных версий эп.001 (v1–v8, v7.x, ранние сцены — личное) |
 | `_personal/drafts/episode002/` | Архив v1–v7 эп.002 (личное) |
-| `_personal/drafts/episode003/` | Все рабочие материалы эп.003: canvas-v3.md, episode003-v1.md, episode003-v2.md (личное) |
+| `_personal/drafts/episode003/` | Архив рабочих материалов эп.003: canvas-v3.md, episode003-v1.md, episode003-v2.md, episode003-v3.md (личное) |
 
 ---
 

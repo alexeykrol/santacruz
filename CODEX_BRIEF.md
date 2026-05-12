@@ -111,7 +111,7 @@ SantaCruse/
 
 - Эпизод 001 «Утро»: принят, лежит в `drafts/episode001/episode001-v8.1.md`.
 - Эпизод 002 «Поле»: v9 в работе, лежит в `drafts/episode002/episode002-v9.md`. Применены комментарии PR #20 + Highway 17 reframe.
-- Эпизод 003: в черновиках в `_personal/drafts/episode003/` (канва v3, версии v1–v2 отвергнуты как «протокольные»).
+- Эпизод 003 «Первые наблюдения»: v3 в `drafts/episode003/episode003-v3.md` (полный rewrite по реалистичной модели). Архив и канва — в `_personal/drafts/episode003/`.
 - `.claude/SNAPSHOT.md` может быть устарел — для актуальности сверяйся с `git log --oneline -20`.
 
 ---
