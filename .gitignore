@@ -27,6 +27,7 @@ __pycache__/
 
 # Claude Code runtime files
 .claude/.last_session
+.claude/LAST_SESSION.md
 
 # Claude Code dialogs (privacy by default)
 dialog/
