@@ -207,4 +207,5 @@ echo '{"status": "clean", "timestamp": "'$(date -Iseconds)'"}' > .claude/.last_s
 - `production-safety.md` — production deploy только с подтверждением
 - `local-first.md` — разработка на SQLite, миграция в облако после стабилизации
 - `commit-policy.md` — что коммитить, что нет, три режима по типу проекта
+- `github-workflow.md` — ветки и PR: одна задача = одна ветка = один PR в `main`, ревьюер обязателен
 - `logging.md` — локальное логирование сессий, миграций, ошибок
